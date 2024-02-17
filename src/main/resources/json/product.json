@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Play Station 5",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "name": "Xbox One S",
+        "price": 750
+    },
+    {
+        "id": 3,
+        "name": "Xbox One X",
+        "price": 900
+    },
+    {
+        "id": 4,
+        "name": "Honor Magic 5",
+        "price": 250
+    }
+]

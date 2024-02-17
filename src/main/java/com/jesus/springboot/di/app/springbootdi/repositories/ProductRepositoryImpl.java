@@ -4,12 +4,16 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 
+import org.springframework.stereotype.Repository;
+import org.springframework.web.context.annotation.RequestScope;
+import org.springframework.web.context.annotation.SessionScope;
 import com.jesus.springboot.di.app.springbootdi.models.Product;
 
-@Primary  //para indicar cual es le repositorios principal
+  
+//@RequestScope//para indicar cual es le repositorios principal
+//@SessionScope //para mantener la session activa una vez que se cierra navegador o postman se reinicia la sesion
+@Primary
 @Repository("productList")
 public class ProductRepositoryImpl implements ProductRepository{
 
